@@ -1,0 +1,29 @@
+{
+    "name": "clsystems/yk-api-client",
+    "description": "Client library for YieldKit API.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+      "clsystems",
+      "yieldkit",
+      "yield",
+      "tracking",
+      "ads",
+      "affiliate"
+    ],
+    "authors": [
+        {
+            "name": "Jeroen Guyt",
+            "email": "info@clsystems.nl"
+        }
+    ],
+    "require": {
+      "php": ">=7.2.0",
+      "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+      "psr-0": {
+        "CLSystems\\YieldKit\\": "src/"
+      }
+    }
+}
